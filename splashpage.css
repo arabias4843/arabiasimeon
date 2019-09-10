@@ -1,0 +1,156 @@
+/*this is my stylesheet for my site. */
+
+body {
+  background-color: #F9F4F4; /*pinkish white/ off-white*/
+  font-family: "Montserrat",sans-serif;
+}
+h1{
+  font-family: "Montserrat",sans-serif;
+  font-style: italic;
+
+  color: #CC4956;
+  font-size: 85px;
+
+  text-align: left;
+
+
+}/*splash page invisible boxes */
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+.flex-container .box {
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+/*Animated dropdown menu */
+
+/*the 3 bar container icon */
+.container {
+  display: inline-block;
+  cursor: pointer;
+  float: right;
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 3px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////
+The dropdown menu itself */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Slideshow styles. */
+/* * {box-sizing:border-box}
+
+/* Slideshow container */
+/* .slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+} */
+
+/* Hide the images by default */
+/* .mySlides {
+  display: none;
+} */
+
+/* Next & previous buttons */
+/* .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+} */
+
+/* Position the "next button" to the right */
+/* .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+} */
+
+/* On hover, add a black background color with a little bit see-through */
+/* .prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+} */
+
+/* The dots/bullets/indicators */
+/* .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+} */
+
+/* Fading animation */
+/* .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+} */

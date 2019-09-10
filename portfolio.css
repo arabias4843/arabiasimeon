@@ -1,0 +1,289 @@
+/*Arabia Simeon
+  Personal website
+  Summer 2019
+  portfolio css*/
+  .body{
+  background-color: #F9F4F4; /*pinkish white/ off-white*/
+  font-family: "Titillium", sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
+/*---------image link grid  for  Portfolio, video, -------------------------------------------------------------*/
+.logo{
+  display:block;
+  text-align: center;
+
+}
+
+.container{
+  position: relative;
+  width:325px;
+  height:280px;
+  display:inline-block;
+  padding-top:3px;
+}
+.image{
+  display:block;
+  width:325px;
+  height:280px;
+}
+.overlay {
+  position: absolute;
+  opacity: 0;
+  transition: all .5s ease;
+  background-color: silver;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  /* color: white; */
+  color: black;
+  font-family: "Titillium", sans-serif;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay1{
+  height:100%;
+  width:0;
+  top: 0;
+  left: 0;
+  background-color: silver;
+}
+.container:hover .overlay1 {
+  width:100%;
+}
+
+.overlay2{
+  height:100%;
+  width:0;
+  top: 0;
+  left: 0;
+  background-color: silver;
+}
+.container:hover .overlay2 {
+  width:100%;
+}
+.overlay3{
+  height:100%;
+  width:0;
+  top: 0;
+  left: 0;
+  background-color: silver;
+}
+.container:hover .overlay3 {
+  width:100%;
+}
+
+
+/*---------------------------------------------------------------------------*/
+h1{
+  font-size: 50px;
+  padding-bottom:100px;
+}
+
+/*-----------------------parallax for individual pages---------------------------------------------------*/
+.parallax1 {
+  /* The image used */
+  background-image: url("ARoseThatGrewFromConcrete_Screenshot.png");
+  /* Set a specific height */
+  min-height: 700px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  /* The image used */
+  background-image: url("N***asBDangerous.png");
+  /* Set a specific height */
+  min-height: 700px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3{
+  /* The image used */
+  background-image: url("HoodDreamin_Screenshot.png");
+  /* Set a specific height */
+  min-height: 700px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parallax4{
+  /* The image used */
+  background-image: url("Molly_Screenshot.png");
+  /* Set a specific height */
+  min-height: 700px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parallax5{
+  /* The image used */
+  background-image: url("RoboBird.png");
+  /* Set a specific height */
+  min-height: 700px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parallax6{
+  /* The image used */
+  background-image: url("lonelyLights.png");
+  /* Set a specific height */
+  min-height: 700px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parallax7{
+  /* The image used */
+  background-image: url("efg1.png");
+  /* Set a specific height */
+  min-height: 700px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parallax8{
+  /* The image used */
+  background-image: url("PoGoLogo.png");
+  /* Set a specific height */
+  min-height: 700px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parallax9{
+  /* The image used */
+  background-image: url("5CCSLogo.png");
+  /* Set a specific height */
+  min-height: 700px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parallax10{
+  /* The image used */
+  background-image: url("beanbagBW.jpg");
+  /* Set a specific height */
+  min-height: 700px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parallax11{
+  /* The image used */
+  background-image: url("CVCScreenshot.png");
+  /* Set a specific height */
+  min-height: 700px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parallax12{
+  /* The image used */
+  background-image: url("gun3copy.jpg");
+  /* Set a specific height */
+  min-height: 700px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parallax13{
+  /* The image used */
+  background-image: url("conferenceBanner.jpg");
+  /* Set a specific height */
+  min-height: 700px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+}/*splash page invisible boxes */
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+.flex-container .box, .box1 {
+  width: 50%;
+  margin: 5px;
+  text-align: center;
+  line-height: 25px;
+}
+.flex-container .box{
+  font-size: 50px;
+}
+.box1{
+  float:right;
+  font-size: 15px;
+  padding-top: 150px;
+  padding-right:20px;
+}
+.boxgifs{
+  text-align: center;
+  padding:20px;
+
+}
+.box p{
+  padding-top: 25px;
+  font-size:50px;
+  text-align: center;
+  line-height: 10px;
+
+}
+.paragraph{
+  height:1000px;
+  background-color:#F9F4F4;
+}
+iframe{
+  text-align:center;
+}
+.Contributiontxt{
+  text-align: left;
+}
